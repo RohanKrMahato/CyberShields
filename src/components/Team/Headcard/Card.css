@@ -1,0 +1,15 @@
+  .Headcardcss {
+    width: 200px;
+    height: 230px;
+    border: 1px solid white;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(169, 167, 167, 0.5);
+    cursor:pointer;
+  }
+  
+  .Headcardcss:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.233);
+    border: 1px solid orange;
+  }
