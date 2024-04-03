@@ -9,6 +9,7 @@
 .CoreTeam-title{
     text-align: center;
     font-size: 30px;
+    margin-top: 10px;
     margin-bottom: 10px;
     text-shadow: 2px 2px 5px rgb(0, 0, 0);
     font-style: italic;
@@ -33,11 +34,12 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin: 0 auto 40px auto;
-    max-width: 1535px;
+    max-width: 1335px;
     gap: 40px;
 }
 
 .Team-container {
+    margin-top: 35px;
     padding-top: 50px;
     padding-bottom: 20px;
 }

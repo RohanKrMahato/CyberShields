@@ -1,6 +1,7 @@
   .Headcardcss {
+    margin-top: 10px;
     width: 200px;
-    height: 230px;
+    height: 245px;
     border: 1px solid white;
     transition: transform 0.3s, box-shadow 0.3s;
     border-radius: 10px;
@@ -9,7 +10,96 @@
   }
   
   .Headcardcss:hover {
-    transform: scale(1.05);
+    background-size: 5% 5%;
+    background-color: rgba(139, 135, 130, 0.2);
+    transition: 0.5s;
+    transform: scale(1.1);
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.233);
-    border: 1px solid orange;
+    border: 1px solid rgb(127, 98, 134);
+    
+  }
+
+  .Name{
+    margin: 12px 0px -5px 7px;
+    font-size: 22px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .hbox{
+    background-image: linear-gradient(to right, #7e3f62, #7A7ADB);
+    height: 100px;
+    width: 200px;
+    border-radius: 9px 9px 0px 0px;
+  }
+  .imgbox{
+    margin-top: -48px;
+    position: relative;
+    height: 110px;
+    width: 110px;
+    border-style: solid;
+    border-color: beige;
+    border-width: 2px ;
+    border-radius: 50%;
+
+  }
+
+  .Headcardcss:hover .content .hbox{
+    transform: translateY(20px);
+    transition: 0.5s;
+    
+  }
+
+  .Headcardcss:hover .content .imgbox{
+    transition: 0.5s;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.343);
+    border-color: rgb(139, 114, 63);
+  }
+
+  .img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .content{
+    /* margin-top: 45px; */
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .Headcardcss:hover .content {
+    transform: translateY(-20px);
+    transition: 0.5s;
+  }
+
+  .social-icons{
+    display: flex;
+    bottom: -60px;
+    margin-left: -30px;
+
+  }
+
+  .social-icons li{
+    list-style: none;
+    margin: 5px 15px 10px 15px;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: 0.5s;
+  }
+
+  .Headcardcss:hover .social-icons li {
+    transform: translateY(0px);
+    transform: scale(1.8);
+    opacity: 1;
+  }
+
+
+
+  .social-icons li #{
+    color: beige;
+    font-size: 24px;
   }

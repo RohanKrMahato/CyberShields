@@ -4,9 +4,9 @@ import Headcard2 from "./Headcard/Card2";
 import Headcard3 from "./Headcard/Card3";
 
 import CTcard1 from "./Coreteamcard/Card1";
-import CTcard2 from "./Coreteamcard/Card1";
-import CTcard3 from "./Coreteamcard/Card1";
-import CTcard4 from "./Coreteamcard/Card1";
+import CTcard2 from "./Coreteamcard/Card2";
+import CTcard3 from "./Coreteamcard/Card3";
+import CTcard4 from "./Coreteamcard/Card4";
 
 function Team() {
   return (
@@ -22,10 +22,10 @@ function Team() {
         </div>
         <div className="CoreTeam-title">CoreTeam</div>
         <div className="Core-Team">
-            <CTcard1/>
-            <CTcard2/>
-            <CTcard3/>
-            <CTcard4/>
+              <CTcard1/>
+              <CTcard2/>
+              <CTcard3/>
+              <CTcard4/>
         </div>
     </div>
   );
