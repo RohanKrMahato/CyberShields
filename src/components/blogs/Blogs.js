@@ -3,7 +3,7 @@ import "./Blogs.css"
 function Blogs() {
     return  (
      <div className="blogs-container">
-        <div className="blogs-heading">You write blogs here!</div>
+        <div className="blogs-heading">You can write blogs here!</div>
         <div className="site__wrapper">
          <div className="grid">
           <div class="card">

@@ -21,11 +21,6 @@
 // }
 
 // export default App;
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-} from "react-router-dom";
 import './App.css';
 import Activities from './components/Activities/Activities';
 import Gallery from './components/Gallery/Gallery';
