@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import eabimage1 from "./eab2.png"
 import eabimage2 from "./eab.png"
 import eabimage3 from "./gallery1.png"
+import Explore_blog_button from "../blogs/BlogsWindow"
 
 function EAB() {
     const eabimageArray=[eabimage2,eabimage3,eabimage1];
@@ -30,7 +31,7 @@ function EAB() {
             <img className="eabimage" src={eabimageArray[eabindex]} alt=""></img>
         </div>
         </div>
-
+        <Explore_blog_button/>
     </div>
   );
 }
