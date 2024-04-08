@@ -1,6 +1,5 @@
-import styles from "./Card.css";
-import harshit from "./WhatsApp Image 2024-03-25 at 12.53.28.jpeg";
-import rohan from "./1678802514689.png";
+import "./Card.css";
+import rohan from "./rohan.png";
 
 function Card() {
   return (
@@ -8,7 +7,7 @@ function Card() {
       <div className="content">
         <div className="hbox"></div>
         <div className="imgbox">
-          <img className="img" src={rohan}></img>
+          <img className="img" src={rohan} alt=""></img>
         </div>
         <div className="Name">Harshit</div>
         <ul class="social-icons">
